@@ -1,0 +1,7 @@
+# Copy to protected.local.txt (gitignored). Your bots and services: one regex per line, matched
+# against the FULL command line (top only shows "Python"/"java"). Anything matching is never
+# auto-killed at any hour, and during market hours is not even a candidate.
+# Launchd services from ~/Library/LaunchAgents are recognised automatically; this list is for
+# processes launched some other way, and for belt and braces.
+my-trading-bot
+MyStrategy

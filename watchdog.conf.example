@@ -1,0 +1,13 @@
+# Copy to watchdog.conf (gitignored). Sourced on every run; a real environment variable still wins.
+# No launchd reload is needed after editing.
+#
+# DRY_RUN=1 : log what it WOULD do, never kill, never show the dialog. Run like this for a day,
+#             read logs/watchdog.log, then set DRY_RUN=0.
+DRY_RUN=1
+
+# Optional: a dashboard that lists logs/pending.json (shown in notification banners).
+# HUB_URL=localhost:8080
+
+# Other knobs (defaults in watchdog.sh): PROC_CAP_MB RUNAWAY_FREE_PCT MARKET_PROC_CAP_MB
+# MARKET_RUNAWAY_FREE_PCT PROTECT_BOTS_ALWAYS CONFIRM_KILL CONFIRM_TIMEOUT_SECS CONFIRM_ON_TIMEOUT
+# SPARE_SECS DIALOG_MAX_PER_HOUR MAX_ASKS_PER_PID NOTIFY_PENDING_EVERY_SECS CRIT_FREE_PCT CRIT_SWAP_PCT

@@ -1,0 +1,10 @@
+logs/
+__pycache__/
+*.pyc
+*.bak
+*.proposed
+*.tmp
+watchdog.conf
+protected.local.txt
+market_close.json
+.DS_Store
